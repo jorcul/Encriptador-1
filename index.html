@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+     <script type="text/Javascript" src="Javascript.js"></script>
+     <link href="./BotonEncriptar.css/btn-encriptar.css" rel="stylesheet">
+     <link href="./BotonEncriptar.css/btn-desencriptar.css" rel="stylesheet">
+     <link href="./BotonEncriptar.css/copiar.css" rel="stylesheet">
+
+    <title>challenger 1</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo"> 
+            
+            <img class="logoimg"src="img/logo.png">
+            <h2 class = "titlle">Encriptador de mensajes</h2>
+        </div>
+        <div class="left">
+            <input class="text-input" id= "inputTexto"type="text" placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="right">
+            <img src="img/muneco.png" id ="imgDer">
+            <h1 id="texto">Ningun mensaje fue encontrado</h1>
+            <textarea id="texto2" name="name"rows="8"cols="80">Ingrese el texto que desea Encriptar o Desencriptar .</textarea>
+            <button id="copiar"type="button"name="button" onclick=" copy()">¡copiar!</button>
+        </div>
+        <div class="left-button">  
+
+         <div class="right-button">  
+            <p>Solo minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="Encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="Desencriptar()">Desencriptar</button>
+           </div>
+        </div>
+    </div>
+<footer>
+    jorge culma arias@agosto 2022
+</footer>
+</body>
+
+</html>
